@@ -13,6 +13,10 @@ body {
     width: 100%;
 }
 
+.section {
+    min-height: 800px;
+}
+
 .viewport {
     width: 100%;
     height: 100%;
@@ -152,7 +156,7 @@ header .search-bar button {
 }
 
 .banner {
-    padding: 12rem 3rem;
+    padding: 2rem 3rem;
 }
 
 .banner .banner-title {
@@ -208,10 +212,9 @@ header .search-bar button {
 .second-session {
     padding-bottom: 7rem;
 }
-
 .third-session .session-card {
     background-color: var(--tertiary-color);
-    padding: 7rem 3rem;
+    padding: 4rem 3rem;
 }
 
 .third-session .session-card h6 {
@@ -224,10 +227,7 @@ header .search-bar button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding-top: 12rem;
-    padding-bottom: 12rem;
     margin-top: 9rem;
-    margin-bottom: 6rem;
 }
 
 .fourth-section h2 {
@@ -281,8 +281,6 @@ header .search-bar button {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding-bottom: 12rem;
-    padding-top: 12rem;
 }
 
 .subscription-section h2 {
