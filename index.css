@@ -208,7 +208,7 @@ header .search-bar button {
 
 .custom-card-title {
     font-weight: 700;
-    font-size: 25px;
+    font-size: 29px;
     color: var(--light-color);
 }
 
@@ -217,7 +217,7 @@ header .search-bar button {
 }
 
 .second-session p{
-    font-size: 27px;
+    font-size: 23px;
 }
 
 .third-session .session-card {
