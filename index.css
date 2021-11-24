@@ -48,7 +48,7 @@ body {
     font-weight: 800;
     padding: 0.5rem 2rem;
     letter-spacing: 0;
-    font-size: 25px;
+    font-size: 1.5625rem
 }
 
 .btn-light {
@@ -95,7 +95,7 @@ body {
     color: var(--dark-color);
     letter-spacing: 3px;
     font-weight: 800;
-    font-size: 14px;
+    font-size: .875rem;
 }
 
 .menu-item a:hover {
@@ -108,7 +108,7 @@ body {
     height: 100%;
     align-items: center;
     list-style: none;
-    font-size: 15px;
+    font-size: .9375rem;
     font-weight: bold;
     text-transform: uppercase;
     flex: 4;
@@ -151,7 +151,7 @@ header .search-bar button {
     border: 0;
     background: transparent;
     position: absolute;
-    font-size: 20px;
+    font-size: 1.25rem;
     right: 20px;
     top: 50%;
     transform: translateY(-50%);
@@ -164,7 +164,7 @@ header .search-bar button {
 .banner .banner-title {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 92px;
+    font-size: 5.75rem;
     color: var(--secondary-color);
     filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.22));
 }
@@ -173,7 +173,7 @@ header .search-bar button {
     text-transform: uppercase;
     font-weight: 900;
     font-style: italic;
-    font-size: 25px;
+    font-size: 1.5625rem;
     letter-spacing: 4px;
     margin-bottom: 30px;
     color: var(--dark-color);
@@ -186,13 +186,13 @@ header .search-bar button {
     letter-spacing: 0.5px;
     color: var(--dark-color);
     text-shadow: 2px 2px 2px #ffffff;
-    font-size: 21px;
+    font-size: 1.3125rem;
 }
 
 .section-title {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 63px;
+    font-size: 3.9375rem;
     color: var(--secondary-color);
 }
 
@@ -208,7 +208,7 @@ header .search-bar button {
 
 .custom-card-title {
     font-weight: 700;
-    font-size: 29px;
+    font-size: 1.8125rem;
     color: var(--light-color);
 }
 
@@ -217,7 +217,7 @@ header .search-bar button {
 }
 
 .second-session p{
-    font-size: 23px;
+    font-size: 1.4375rem;
 }
 
 .third-session .session-card {
@@ -226,12 +226,12 @@ header .search-bar button {
 }
 
 .third-session .session-card h6 {
-    font-size: 58px;
+    font-size: 3.625rem;
     line-height: 1;
 }
 
 .third-session .session-card p {
-    font-size: 29px;
+    font-size: 1.8125rem;
 }
 
 .fourth-section {
@@ -243,7 +243,7 @@ header .search-bar button {
 }
 
 .fourth-section h2 {
-    font-size: 58px;
+    font-size: 3.625rem;
     letter-spacing: 1px;
     color: var(--light-color);
 }
@@ -252,21 +252,21 @@ header .search-bar button {
     color: var(--gray-color);
     width: 75%;
     text-align: center;
-    font-size: 29px;
+    font-size: 1.8125rem;
 }
 
 .testimonial-section .testimonial-title {
     color: var(--secondary-color);
-    font-size: 33px;
+    font-size: 2.0625rem;
     font-weight: 600;
 }
 
 .testimonial-section .testimonial-desc {
-    font-size: 19px;
+    font-size: 1.1875rem;
 }
 
 .testimonial-quotation {
-    font-size: 100px;
+    font-size: 6.25rem;
     font-weight: 700;
     font-family: system-ui;
     line-height: 1;
@@ -286,7 +286,7 @@ header .search-bar button {
 
 .testimonial-primary .testimonial-name {
     font-weight: 700;
-    font-size: 21px;
+    font-size: 1.3125rem;
 }
 
 .subscription-section {
@@ -299,14 +299,14 @@ header .search-bar button {
 .subscription-section h2 {
     color: var(--light-color);
     font-weight: 700;
-    font-size: 75px;
+    font-size: 4.6875rem;
 }
 
 .subscription-section p {
     width: 75%;
     text-align: center;
     color: var(--dark-color);
-    font-size: 30px;
+    font-size: 1.875rem;
 }
 
 .subscription-section .subscription-form {
@@ -319,7 +319,7 @@ header .search-bar button {
     border: 0;
     padding: 0.75rem 1.25rem;
     width: 100%;
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .subscription-section .subscription-form button {
@@ -327,7 +327,7 @@ header .search-bar button {
     right: 0;
     top: 0;
     letter-spacing: 2px;
-    font-size: 15px;
+    font-size: .9375rem;
     height: 100%;
 }
 
@@ -337,12 +337,12 @@ footer {
     min-height: 720px;
     display: flex;
     align-items: center;
-    font-size: 24px;
+    font-size: 1.5rem;
 }
 
 footer h6 {
     margin-bottom: 1.5rem;
-    font-size: 32px;
+    font-size: 2rem;
     letter-spacing: 1px;
 }
 
@@ -392,7 +392,7 @@ footer .footer-links a:hover {
     align-items: center;
     color: var(--tertiary-color) !important;
     text-decoration: none;
-    font-size: 23px;
+    font-size: 1.4375rem;
 }
 
 @media (min-width: 768px) {
@@ -400,3 +400,10 @@ footer .footer-links a:hover {
         width: 50% !important;
     }
 }
+
+@media (max-width: 768px) {
+    html {
+        font-size: 12px;
+    }
+}
+
