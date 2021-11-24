@@ -14,7 +14,7 @@ body {
 }
 
 .section {
-    min-height: 800px;
+    min-height: 1040px;
 }
 
 .viewport {
@@ -37,16 +37,17 @@ body {
 }
 
 .btn {
-    border-radius: 1.25rem;
+    border-radius: 25px;
     text-transform: uppercase;
-    padding: 0.375rem 3rem;
+    padding: 1rem 3rem;
     letter-spacing: 3px;
     font-weight: 700;
 }
 
 .btn-sm {
     font-weight: 800;
-    padding: 0.25rem 1.25rem;
+    padding: 0.5rem 1.25rem;
+    letter-spacing: 0;
 }
 
 .btn-light {
@@ -162,14 +163,14 @@ header .search-bar button {
 .banner .banner-title {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 80px;
+    font-size: 92px;
     color: var(--secondary-color);
     filter: drop-shadow(2.575px -4.286px 2.5px rgba(84, 82, 79, 0.22));
 }
 
 .banner .banner-subtitle {
     text-transform: uppercase;
-    font-weight: bold;
+    font-weight: 900;
     font-style: italic;
     font-size: 25px;
     letter-spacing: 4px;
@@ -184,12 +185,13 @@ header .search-bar button {
     letter-spacing: 0.5px;
     color: var(--dark-color);
     text-shadow: 2px 2px 2px #ffffff;
+    font-size: 21px;
 }
 
 .section-title {
     text-transform: uppercase;
     font-weight: 900;
-    font-size: 50px;
+    font-size: 63px;
     color: var(--secondary-color);
 }
 
@@ -212,14 +214,23 @@ header .search-bar button {
 .second-session {
     padding-bottom: 7rem;
 }
+
+.second-session p{
+    font-size: 27px;
+}
+
 .third-session .session-card {
     background-color: var(--tertiary-color);
     padding: 4rem 3rem;
 }
 
 .third-session .session-card h6 {
-    font-size: 56px;
+    font-size: 58px;
     line-height: 1;
+}
+
+.third-session .session-card p {
+    font-size: 29px;
 }
 
 .fourth-section {
@@ -231,7 +242,7 @@ header .search-bar button {
 }
 
 .fourth-section h2 {
-    font-size: 45px;
+    font-size: 58px;
     letter-spacing: 1px;
     color: var(--light-color);
 }
@@ -240,17 +251,17 @@ header .search-bar button {
     color: var(--gray-color);
     width: 75%;
     text-align: center;
-    font-size: 20px;
+    font-size: 29px;
 }
 
 .testimonial-section .testimonial-title {
     color: var(--secondary-color);
-    font-size: 20px;
+    font-size: 33px;
     font-weight: 600;
 }
 
 .testimonial-section .testimonial-desc {
-    font-size: 14px;
+    font-size: 19px;
 }
 
 .testimonial-quotation {
@@ -268,12 +279,13 @@ header .search-bar button {
     margin-top: 7rem;
 }
 
-.testimonial-primary h5 {
+.testimonial-primary h4 {
     font-weight: 600;
 }
 
 .testimonial-primary .testimonial-name {
     font-weight: 700;
+    font-size: 21px;
 }
 
 .subscription-section {
@@ -286,13 +298,14 @@ header .search-bar button {
 .subscription-section h2 {
     color: var(--light-color);
     font-weight: 700;
-    font-size: 48px;
+    font-size: 75px;
 }
 
 .subscription-section p {
     width: 75%;
     text-align: center;
     color: var(--dark-color);
+    font-size: 30px;
 }
 
 .subscription-section .subscription-form {
@@ -303,9 +316,9 @@ header .search-bar button {
 .subscription-section .subscription-form input {
     border-radius: 25px;
     border: 0;
-    padding: 0.45rem 1.25rem;
+    padding: 0.75rem 1.25rem;
     width: 100%;
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .subscription-section .subscription-form button {
@@ -314,6 +327,7 @@ header .search-bar button {
     top: 0;
     letter-spacing: 2px;
     font-size: 15px;
+    height: 100%;
 }
 
 footer {
@@ -322,11 +336,12 @@ footer {
     min-height: 720px;
     display: flex;
     align-items: center;
+    font-size: 24px;
 }
 
 footer h6 {
     margin-bottom: 1.5rem;
-    font-size: 1.25rem;
+    font-size: 32px;
     letter-spacing: 1px;
 }
 
